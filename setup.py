@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='servercontrol',
+    name='ilocontrol',
     version='0.0.1',
     author="Albert Quiroga",
     author_email="albertquirogabertolin@gmail.com",
@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'server=servercontrol.__main__:main'
+            'server=ilocontrol.__main__:main'
         ]
     },
     classifiers=[

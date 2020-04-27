@@ -1,4 +1,4 @@
-from servercontrol.commands import process_command
+from ilocontrol.commands import process_command
 
 from albertquiroga_utils.cli.CLITool import CLITool
 
