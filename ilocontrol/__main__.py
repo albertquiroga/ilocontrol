@@ -1,6 +1,6 @@
 import sys
 
-from ilocontrol.CLI.ServerControlCLI import ServerControlCLI
+from ilocontrol.CLI.iLOControlCLI import ServerControlCLI
 
 
 def main():
