@@ -1,10 +1,10 @@
 import sys
 
-from servercontrol.CLI import ServerControlCLI
+from servercontrol.CLI.ServerControlCLI import ServerControlCLI
 
 
 def main():
-    return 0
+    ServerControlCLI().main()
 
 
 if __name__ == '__main__':

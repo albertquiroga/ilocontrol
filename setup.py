@@ -25,6 +25,6 @@ setup(
         "Natural Language :: English",
         "Topic :: Utilities"
     ],
-    install_requires=['albertquiroga_utils'],
+    install_requires=['albertquiroga_utils', 'paramiko'],
     python_requires='>=3.0'
 )
